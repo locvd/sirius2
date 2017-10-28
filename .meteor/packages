@@ -1,0 +1,44 @@
+# Meteor packages used by this project, one per line.
+# Check this file (and the other files in this directory) into your repository.
+#
+# 'meteor add' and 'meteor remove' will edit this file for you,
+# but you can also edit it by hand.
+
+less@2.7.9
+iron:router
+fortawesome:fontawesome
+tap:i18n
+momentjs:moment
+meteor-base@1.1.0
+mobile-experience@1.0.5
+mongo@1.2.2
+blaze-html-templates@1.0.4
+session@1.1.7
+tracker@1.1.3
+logging@1.1.17
+reload@1.1.11
+random@1.0.10
+ejson@1.0.14
+spacebars@1.0.12
+check@1.2.5
+okgrow:router-autoscroll
+dbarrett:dropzonejs
+standard-minifier-css@1.3.5
+standard-minifier-js@2.1.2
+shell-server@0.2.4
+zimme:active-route
+es5-shim@4.6.15
+ecmascript@0.8.3
+reactive-var@1.0.11
+fourseven:scss
+tsega:bootstrap3-datetimepicker
+jquery@1.11.10
+dynamic-import
+aldeed:simple-schema
+aldeed:collection2
+aldeed:autoform
+accounts-base
+accounts-password
+accounts-ui
+msavin:mongol
+gabrielengel:konecty-magnific-popup

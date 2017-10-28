@@ -1,0 +1,561 @@
+{
+  "dashboard": {
+    "WELCOME": "Bảng Điều Khiển!"
+  },
+  "sidebar": {
+    "WELCOME": "Xin chào",
+    "heading": {
+      "HEADER": "Bảng Điều Khiển Chính",
+      "COMPONENTS": "Thành Phần",
+      "MORE": "Thêm",
+      "SIRIUS": "Sirius"
+    },
+    "sirius": {
+      "MEMBER": "Quản Lý Thành Viên",
+      "member": {
+        "NEW": "Thêm Thành Viên",
+        "LIST": "Danh sách"
+      }
+    },
+    "nav": {
+      "DASHBOARD": "Bảng",
+      "WIDGETS": "Miếng Dán",
+      "DOCUMENTATION": "Tài Liệu",
+      "element": {
+        "ELEMENTS": "Yếu Tố",
+        "BUTTON": "Nút Bấm",
+        "COLOR": "Màu",
+        "NOTIFICATION": "Thông Báo",
+        "CAROUSEL": "Carousel",
+        "SPINNER": "Con Quay",
+        "ANIMATION": "Animation",
+        "DROPDOWN": "Dropdown",
+        "PANEL": "Panel",
+        "PORTLET": "Portlet",
+        "GRID": "Grid",
+        "GRID_MASONRY": "Grid Masonry",
+        "TYPO": "Kiểu Chữ",
+        "FONT_ICON": "Font Icons",
+        "WEATHER_ICON": "Thời Tiết"
+      },
+      "form": {
+        "FORM": "Dạng",
+        "STANDARD": "Chuẩn",
+        "EXTENDED": "Nối Dài",
+        "VALIDATION": "Xác Nhận"
+      },
+      "chart": {
+        "CHART": "Biểu Đồ",
+        "FLOT": "Đồ Thị",
+        "RADIAL": "Hình Tròn"
+      },
+      "table": {
+        "TABLE": "Bảng",
+        "STANDARD": "Chuẩn",
+        "EXTENDED": "Nối Dài",
+        "DATATABLE": "Dữ Liệu"
+      },
+      "map": {
+        "MAP": "Bản Đồ",
+        "GOOGLE": "Google Map",
+        "VECTOR": "Vector Map"
+      },
+      "extra": {
+        "EXTRA": "Thêm",
+        "MAILBOX": "Hộp Thư",
+        "TIMELINE": "Timeline",
+        "CALENDAR": "Lịch",
+        "INVOICE": "Hóa Đơn",
+        "SEARCH": "Tìm Kiếm",
+        "TODO": "Todo List",
+        "PROFILE": "Hồ Sơ"
+      },
+      "pages": {
+        "PAGES": "Trang",
+        "LOGIN": "Đăng Nhập",
+        "REGISTER": "Đăng Ký",
+        "RECOVER": "Khôi Phục Mật Khẩu",
+        "PROFILE": "Hồ Sơ",
+        "LOCK": "Khóa",
+        "STARTER": "Starter Template"
+      }
+    }
+  },
+  "Sirius": "Sirius",
+  "hello": "Xin chào",
+  "Logo": "Biển hiệu",
+  "Home": "Trang Chủ",
+  "HomeScreen": {
+    "RecentActivity": {
+      "insert": "Thêm thành viên mới",
+      "update": "Thay đổi thông tin thành viên"
+    }
+  },
+  "About": {
+    "label": "Giới thiệu",
+    "Staff": "Đội ngũ nhân viên",
+    "School": "Trường cô dâu",
+    "Company": {
+      "label": "Công Ty",
+      "Name": "Tên Công Ty",
+      "CEOMessage": {
+        "label": "Lời nhắn từ giám đốc",
+        "Impression": {
+          "label": "Ấn tượng về phụ nữ Việt Nam",
+          "content-line1": "Nhật Bản nói chung sẽ chỉ có hình ảnh mơ hồ đối với phụ nữ Việt Nam và Việt Nam. Tôi nghĩ về chiến tranh Việt Nam mà nó là một chút thế hệ cũ. Nhưng đã sau chiến tranh gần 40 năm đã trôi qua kể từ khi ký ức về chiến tranh đã trở thành một điều của quá khứ. Hai thế hệ trước đó, nó không đi quan tâm đến ông bà của sự kiện. Các cô gái không chỉ có Hoa Kỳ tình yêu của cảm xúc. Hơn nữa, phần phía nam có một mối quan hệ sâu sắc với Hoa Kỳ",
+          "content-line2": "Phụ nữ Việt Nam là nghiêm trọng. Đây là là ấn tượng đầu tiên của tôi. Và tôn trọng là có hay công trình được tốt hơn để thích tình yêu nam giới. Và nói việc thẳng và tốt trong nghiêm trọng đối với tình yêu, tôi cảm thấy không có điều kiện nữa của hôn nhân đối với nam giới. Ly hôn là một sự kiện khủng khiếp cho những người phụ nữ Việt Nam. Vì vậy, hấp dẫn ngây thơ hay, phụ nữ Việt Nam càng lâu càng không có bạo lực, lừa dối để không ly hôn, tôi không đáng kể từ đầu những nguy cơ lớn nhất đối với nam giới trong ý nghĩa đó."
+        },
+        "JapaneseMenAndVietnameseWomen": {
+          "label": "Phụ nữ Việt Nam và nam giới Nhật Bản",
+          "content-line1": "Phụ nữ Việt Nam, tôi nghĩ rằng hầu hết phù hợp với người Nhật. Trước hết phụ nữ trẻ Việt Nam Sau sự xuất hiện đưa Nhật Bản cũng tương tự như Nhật Bản, nó sẽ được coi là Nhật Bản. Tính cách là gợi nhớ những điều tốt đẹp Nhật Bản cũ của thời đại. Chúng tôi đánh giá cha mẹ tôn trọng những người lớn tuổi trong một nguyên tắc gia đình lớn.",
+          "content-line2": "Mặt khác tôi không cảm thấy tuổi đã đến cũng chứa các công cụ mới và cách suy nghĩ. Phụ nữ Việt Nam là nghiêm trọng và yêu thương, bạn sẽ Takashi Igaa với nam giới. Những phụ nữ tốt có thể được nhìn thấy trong nháy mắt, bạn phải có can đảm để có một bước mà không bị ảnh hưởng bởi thông tin linh tinh"
+        }
+      },
+      "WhyChoosingUs": {
+        "label": "Tại Sao Chọn Chúng Tôi",
+        "header1": "Nhân viên trình độ cao và giàu kinh nghiệm",
+        "content1-line1": "Đội ngũ nhân viên chúng tôi gồm nhân viên kinh doanh, các bà mai mối, nhân viên phiên dịch, nhân viên làm thủ tục giấy tờ. Với bề giày gần 10 năm kinh nghiệm trong lĩnh vực giới thiệu tư vấn hôn nhân quốc tế, đội ngũ của chúng tôi dám khẳng định là đội ngũ nhân lực chuyên nghiệp có trình độ cao, có nhiệt tình, phục vụ hết mình vì khách hàng.",
+        "content1-line2": "Từ người đứng đầu cho tới nhân viên cấp thấp nhất cũng đã từng tốt nghiệp đại học, từng trải qua làm việc và đứng vị trí cao ở các công ty bậc nhất Việt nam và có nhiều kinh nghiệm sống, kinh nghiệm trong nghề. Chúng tôi không quản ngại khó khăn vất vả như đi xa hay làm việc nhiều giờ đồng hồ để giới thiệu cho khách hàng những người vợ tương lai ưng ý nhất.",
+        "header2": "Làm việc chuyên nghiệp, tất cả vì khách hàng",
+        "content2-line1": "Chúng tôi có mạng lưới hàng trăm bà mai người hiểu rõ tình hình địa phương và hoàn cảnh gia đình của các cô gái để cung cấp các thông tin dáng tin cậy. Các bà mai ở sẽ tìm kiếm những cô gái trẻ, đẹp, phẩm chất tốt có nhu cầu lấy chồng Nhật và giới thiệu cho nhân viên kinh doanh. Nhân viên kinh doanh sẽ đi tới địa phương đó không quản ngại xa xôi để gặp mặt trực tiếp và tìm hiểu cô gái đó, sau đó sẽ cung cấp dự liệu của cô gái lên website.",
+        "content2-line2": "Khi khách hàng về Việt Nam để gặp mặt các cô gái và chọn vợ, chúng tôi có đội ngũ phiên dịch chuyên nghiệp để hướng dẫn và chăm sóc khách hàng từ sân bay tới khách sạn và trong suốt quá trình ở Việt Nam. Các phiên dịch của chúng tôi đều có kinh nghiệm phiên dịch từ 3 năm trở lên, sẽ hướng dẫn khách hàng để đáp ứng mọi nhu cầu giao tiếp, ăn uống, vui chơi trong quá trình khách hàng ở Việt Nam.",
+        "content2-line3": "Đội ngũ nhân viên chúng tôi sẽ phối hợp hoàn hảo với nhau để sắp xếp những buổi gặp mặt thoải mái, thân tình nhất giữa khách hàng và các cô gái và gia đình của họ. Sau buổi gặp gỡ, ăn uống, hai bên sẽ có những hiểu biết nhất định về nhau, từ đó xây dựng lòng tin và tình cảm.",
+        "header3": "Dịch vụ trọn gói, nhanh chóng và tiết kiệm nhất",
+        "content3-line1": "Ngoài ra, đội ngũ nhân viên chúng tôi còn có thể làm thủ tục nhanh chóng để giúp khách hàng hoàn thành thủ tục kết hôn nhanh nhất có thể chỉ trong vài ngày khách hàng ở Việt Nam. Ví dụ như nếu khách hàng cần giấy khám sức khoẻ để làm thủ tục kết hôn, thì chúng tôi có thể sắp xếp cho bạn khám nhanh nhất tại bệnh viện tin cậy để lấy kết quả ngay sau đó chứ không phải chờ bất cứ ngày nào. Khách hàng cũng không phải tự đi nộp hồ sơ đăng kí kết hôn, mà mọi giấy tờ sẽ được chúng tôi tư vấn và nộp thay. Các dịch vụ kết hôn trọn gói này được chúng tôi cung cấp nhanh chóng, đúng hẹn và khách hàng không phải trả thêm bất cứ khoản phí nào không hợp lệ."
+      },
+      "Service": {
+        "label": "Dịch Vụ",
+        "MarriageConsulting": "Tư vấn hôn nhân",
+        "WeddingPlanning": "Lên kế hoạch lễ kết hôn"
+      },
+      "Establishment": {
+        "label": "Thành lập",
+        "Time": "Tháng 10 - 1999, website cũ từ tháng 11 - 1999"
+      },
+      "Representative": "Người đại diện",
+      "Address": "Địa chỉ",
+      "Email": "Email",
+      "TEL": "Số điện thoại",
+      "Price": {
+        "label": "Phí tư vấn",
+        "Price": "1.78 triệu Yên (Việt Nam)"
+      },
+      "HeadQuater": {
+        "label": "Trụ sở chính",
+        "name": "Sirius Vietnam",
+        "Address": "2 Chome, Nisshincho, Kita-ku, Saitama-shi, Saitama, Japan",
+        "TEL": "+81-48-871-7020",
+        "Email": "bridal@1stclub.com",
+        "Representative": "Waki Yuji"
+      },
+      "VietnameseBranch": {
+        "label": "Chi nhánh Việt Nam",
+        "Address": "C8 - Đường 57 – KDC 586 - Phường Phú Thứ - Quận Cái Răng – Thành Phố Cần Thơ",
+        "TEL": "+84-90-626-3383",
+        "Email": "phihung2203@gmail.com",
+        "Representative": "Đặng Phi Hùng",
+        "Establishment": "Tháng 12 - 2012"
+      },
+      "OurTeam": {
+        "label": "Giới thiệu nhân viên",
+        "VietnameseRepresentative": "Đại diện Chi nhánh Việt Nam",
+        "CEO": "Giám Đốc",
+        "Hobbies": "Sở thích",
+        "CEOHobbies": "Du lịch, Xem thể thao, Xem phim truyền hình",
+        "VRHobbies": "Karaoke, Du lịch, Xe máy",
+        "Residence": "Nơi ở hiện tại",
+        "CEOResidence": "Tỉnh Saitama - Nhật Bản",
+        "VRResidence": "Cần Thơ - Việt Nam",
+        "WorkExperiences": "Kinh nghiệm",
+        "CEOWorkExperienceTime1": "1977 - 1991",
+        "CEOWorkExperienceContent1": "Nhân viên công ty",
+        "CEOWorkExperienceTime2": "1991 - now",
+        "CEOWorkExperienceContent2": "Tư vấn hôn nhân (Sirius)"
+      }
+    }
+  },
+  "System": {
+    "label": "Hệ Thống",
+    "Flow": "Quy Trình",
+    "Pricing": {
+      "label": "Chi phí",
+      "No": "STT",
+      "Item": "Mục",
+      "Desc": "Nội dung",
+      "OutOfService": "Không bao gồm",
+      "Price": "Đơn giá (vạn yên)",
+      "Note": "Ghi chú",
+      "NotRefundable": "Không trả lại được",
+      "OfficialExpense": "Lệ Phí Chính Kỳ",
+      "OptionalExpense": "Các Lệ Phí Khác",
+      "GrandTotal": "Tổng (Gồm thuế)",
+      "Self-expense": "Tự chi",
+      "DueDate": "Hạn trả",
+      "Membership": {
+        "label": "Phí gia nhập"
+      },
+      "InterviewTour": {
+        "label": "Về gặp mặt",
+        "content": {
+          "line1": "Vé máy bay 2 chiều Nhật Bản - Việt Nam cho khách hàng và nhân viên đi kèm",
+          "line2": "Chi phí cho 2 đêm 3 ngày tại việt nam",
+          "line3": "Chi phí phiên dịch cho 3 ngày"
+        },
+        "outOfService": {
+          "line1": "Chi phí giao thông đi lại tơi sân bay tại Nhật Bản",
+          "line2": "Quà mua tại Việt Nam",
+          "line3": "Các chi phí giải trí khác (đi bar, karaoke)"
+        },
+        "dueDate": "Trước khi về gặp mặt"
+      },
+      "EngagementFee": {
+        "label": "Phí hôn ước",
+        "content": {
+          "line1": "Đặt cọc cho việc hôn ước",
+          "line2": "Chi phí thành công của chúng tôi khi ôn ước được thành công"
+        },
+        "outOfService": {
+          "line1": "Phí chuẩn bị cho lễ cưới",
+          "line2": "Các chi phí khác: vòng cổ, nhẫn đeo tay, nhẫn tai"
+        },
+        "dueDate": "Trong lần về gặp mặt"
+      },
+      "SuccessFee": {
+        "label": "Phí thành hôn",
+        "content": {
+          "line1": "Chi phí thành công cho chúng tôi cho việc kết hôn"
+        },
+        "outOfService": {
+          "line1": "Chi phí phát sinh từ lần về thứ 2"
+        },
+        "dueDate": {
+          "line1": "Sau khi lấy giấy chứng nhận kết hôn: 59 vạn yên",
+          "line2": "Sau khi nữ sang được nhật: 59 vạn yên"
+        }
+      },
+      "MarriageProcedure": {
+        "label": "Chi phí làm thủ tục kết hôn",
+        "content": {
+          "line1": "Phí dịch và công chứng giấy tờ khách hàng",
+          "line2": "Phí khám thần kinh",
+          "line3": "Phí cho nhân viên tư pháp",
+          "line4": "Các phí khác tại các cơ quan ở Việt Nam"
+        },
+        "outOfService": {
+          "line1": "Các chi phí tại các cơ quan nhà nước Nhật và ĐSQ Việt nam"
+        },
+        "dueDate": {
+          "line1": "Về Cưới"
+        }
+      },
+      "BetrothalMoney": {
+        "label": "Tiền Nạp Tài",
+        "content": {
+          "line1": "Tiền Nạp Tài"
+        },
+        "outOfService": {
+          "line1": "Vòng cổ, khuyên tai, nhẫn tay"
+        },
+        "dueDate": {
+          "line1": "Đưa 15 vạn cho nhà gái trong lễ cưới",
+          "line2": "Đưa 15 vạn còn lại khi  cô dâu đến Nhật"
+        }
+      },
+      "WeddingRing": {
+        "label": "Nhẫn cưới",
+        "content": {
+          "line1": "Vòng cổ, khuyên tai, nhẫn cưới"
+        },
+        "outOfService": {
+          "line1": "Chi phí chuẩn bị đám cưới"
+        },
+        "dueDate": {
+          "line1": "Tự mua"
+        }
+      },
+      "WeddingCeremonySupport": {
+        "label": "Hỗ trợ lễ cưới",
+        "content": {
+          "line1": "Mâm ngũ quả",
+          "line2": "Album ảnh cưới",
+          "line3": "Trang điểm cô dâu"
+        },
+        "outOfService": {
+          "line1": "Các chi phí lễ cưới khác"
+        },
+        "dueDate": {
+          "line1": "Về cưới"
+        }
+      },
+      "SecondTourOrAfter": {
+        "label": "Lần về thứ 2 trở đi",
+        "content": {
+          "line1": "Vé máy bay khứ hồi",
+          "line2": "Phí giao thông trong nước Nhật",
+          "line3": "Sinh hoạt phí tại Việt Nam",
+          "line4": "Chi phi phiên dịch"
+        },
+        "outOfService": {
+          "line1": "Quà cưới",
+          "line2": "Phí hỗ trợ lễ cưới",
+          "line3": "Nạp tài"
+        }
+      }
+    },
+    "Interview": {
+      "label": "Về Gặp Mặt",
+      "line1": "Khách hàng sẽ về ở tại Việt Nam 3 ngày 2 đêm và sẽ gặp tối đa 10 người. Khách hàng sẽ thăm nhà cô dâu sau khi chọn được, và sẽ khám thần kinh ngay lần về gặp mặt.",
+      "page": {
+        "title": "お見合い渡航",
+        "apply": {
+          "title": "次のような資格を満たす男性でお見合い希望の方はメールにてお見合い申し込みをしてください。",
+          "eligibility": {
+            "title": "申し込み資格",
+            "e1": "健康で結婚生活に支障がなく、良識ある社会人として のエ チケットを守れる方",
+            "e2": "戸籍上、又実生活においても独身である方・22歳以 上の方",
+            "e3": "住所が明らかで、定職を持っている方",
+            "e4": "暴言・暴力・ギャン ブル癖がなく落ち着いて話せる方、外国人に対し偏見のない方"
+          },
+          "content1": "お見合い申し込みにあたり、<a href=\"__memberList__\">会員一覧</a>より、気になる女性を数名お選び頂き申し込みフォームにご記入いただき送信してください。もしくは当社担当者に電話にてお見合い申し込みの旨をお伝えください。来社訪問の方はメールにて来社の日程を改めて調整頂きます。",
+          "content2": "選ばれたベトナム女性に会員登録された情報に基づき簡単な男性会員プロフィールを作成し、お相手女性にお見合い確認の意志を頂きます。打診の結果は通常申込日より翌日わかりますが女性側の連絡先が変わった等により一週間かかる場合もございます。お見合い申し込みで個別の質問も受付します。",
+          "content3": "お見合い是非の返事を会員様のご連絡いたします、その後当社と打ち合わせを行い渡航日程を決めて頂きます。当社より、お見合い渡航の持ち物と予定を送ります、また会員様の自宅、周辺の風景、買い物をするお店、地元の観光地などの写真を数枚ご用意ください、お見合い時にお相手女性に見せます。"
+        },
+        "tour": {
+          "title": "渡航",
+          "content1": "お見合い渡航は基本的には２泊３日です。指定された国内の空港にてスタッフと合流後、ベトナムに向かいます。ホーチミン市国際空港到着後高速バス等でカントーに移動します。カントーのホテルをチェックインして休憩を取った後、お見合いを開始します。",
+          "content2": "典型的なスケジュールは下記のとおりです。",
+          "schedule": {
+            "title": "スケジュール",
+            "day1": "一日目",
+            "day1content": "現地到着・移動・お見合い",
+            "day2": "二日目",
+            "day2content": "婚約者の実家訪問・面談・次回渡航の日程調整",
+            "day3": "三日目",
+            "day3content": "神経検査・日本領事館にて婚姻要件具備証明書申請"
+          },
+          "content3": "結婚が決まったら今後奥さんとよりスムーズに連絡をとれるように今後の連絡手段と花嫁学校の入学日を現地のスタッフと話し合いで決めてください。"
+        }
+      }
+    },
+    "WeddingTour": {
+      "label": "Về Cưới",
+      "line1": "Sau khi có giấy chứng nhận kết hôn, khách hàng sẽ về Việt Nam tổ chức lễ cưới. Trong lần về này, khách hàng cũng sẽ ký vào sổ đăng ký kết hôn và lấy giấy chứng nhận kết hôn mang về Nhật.",
+      "page": {
+        "title": "結婚渡航",
+        "content1": "結婚渡航は実費で滞在日数は人それぞれですが最低でも２泊３日必要です。航空券はお客さん自身手配するか当社に依頼してもいいです。現地での活動の見本は下記のとおりです。",
+        "schedule": {
+          "title": "スケジュール",
+          "day1": "１日目",
+          "day1content": "現地到着・移動・奥さんと再会・３点セット購入",
+          "day2": "２日目",
+          "day2content": "記念写真撮影・結婚式",
+          "day3": "３日目",
+          "day3content": "女性家族と会談・結婚証明書受け取り",
+          "day4": "４日目以降",
+          "day4content": "新婚旅行・プライベート等（弊社スタッフ立ち合いなし）"
+        },
+        "note": {
+          "title": "注意事項",
+          "note1": "三点セット購入金額は弊社ホームページに載っているのは参考だけで、実際は夫婦同氏で合意頂きます。弊社のスタッフ或は通訳者がお店を紹介します。ただし、三点セット購入を日本で済ませたのであればこのステップが省略できます。",
+          "note2": "結納金は通常結婚式の日に女性の両親に渡すのですが結婚式の準備等のために、事前に送金の要求が来ることがありますのでご了承ください。",
+          "note3": "結婚渡航で結婚証明書受け取るという重要なステップがありますので渡航の３週間前に必要な書類を事前にベトナムに郵送する必要があります。また、結婚証明書を含めた結婚渡航から<a href=\"__procedurePage__\">持って帰る書類</a>をよく確認の上と渡航してください",
+          "note4": "ホテルの手配は基本的にお客さんにネットを通じて手配して頂きますが弊社に依頼する場合は渡航の前に、その旨をお伝えください。",
+          "note5": "結婚渡航は日程がタイトなため十分健康を改めて準備してください。現地で風邪をひいたり、病気になったりすると全体のスケージュールが崩れてしまうのでご注意ください。"
+        },
+        "documentsSent": {
+          "title": "渡航する３週間前までに郵送する書類",
+          "doc1": "戸籍謄本",
+          "doc2": "婚姻要件具備証明書",
+          "doc3": "パスポートコピー",
+          "doc4": "離婚届受理証明書"
+        },
+        "documentBringBack": {
+          "title": "日本に持って帰る書類",
+          "doc1": "結婚証明書（原本及び公印のあるコピー）　各1部",
+          "doc2": "奥さんの証明写真（3㎝×4㎝）　数枚",
+          "doc3": "奥さんの両親・兄弟の氏名・生年月日・現住所（戸籍住所ではなく）・電話番号",
+          "doc4": "奥さんのパスポートコピー（写真のあるページ1枚）",
+          "doc5": "奥さんの出生証明書（公印のあるコピー）1部"
+        }
+      }
+    },
+    "CompanyInfo": "Thông tin công ty",
+    "InterviewApply": {
+      "label": "Đăng ký gặp mặt",
+      "line1": "Xin vui lòng bấm <a href=\"__intApply__\">Đăng ký gặp mặt</a> hoặc gửi <a href=\"mailto:__mailAddr__\">email</a> cho chúng tôi để đăng ký gặp mặt"
+    },
+    "ConfirmAvailability": {
+      "label": "Xác nhận nữ",
+      "line1": "Chúng tôi sẽ liên lạc với các hội viên khách hàng muốn gặp, xác nhận và thông báo danh sách gặp mặt cho khách hàng"
+    },
+    "MarriageRegistration": {
+      "label": "Đăng ký kết hôn",
+      "line1": "Sau khi nhận đầy đủ giấy tờ từ Nhật, người làm thủ tục hồ sơ của chúng tôi sẽ chịu trách nhiệm dịch, hợp thức hóa và tiến hành thủ tục đăng ký kết hôn."
+    },
+    "StartSchool": {
+      "label": "Nhập học",
+      "line1": "Sau khi đính hôn, cô dâu sẽ được học trong trường học của công ty. Cô dâu sẽ ở cũng các cô khác trong trường, được học tiếng Nhật và văn hóa Nhật hàng ngày.",
+      "ContinueSchool": "Tiếp tục học",
+      "CSLine1": "Sau lế cưới, cô dâu sẽ tiếp tục học trong trường. Tại thời điểm này, cô dâu đã có thể nói những câu chào và đoạn hội thoại đơn giản trong tiếng Nhật.",
+      "CSLine2": "Trong thời gian chờ đợi kết quả tư cách lưu trú, cô dâu sẽ tiếp tục học tại trường. Vì thời gian này dài và không có nghiệp vụ gì phát sinh bên phía Việt Nam nên các cô dâu có thể tập trung vào việc học của mình."
+    },
+    "ResidenceStatus": {
+      "label": "Xin tư cách lưu trú",
+      "ApplyForCOEContent": "Trong bước này, khách hàng phải hoàn thành thủ tục đăng ký kết hôn phía Nhật rồi nộp các giấy tờ cần thiết lên cục xuất nhập cảnh để xin cấp giấy chứng nhận tư cách lưu trú. Quá trinh xét duyệt của cục xuất nhập cảnh hết khoảng 3 tháng.",
+      "GotCOE": "Có cư cách lưu trú",
+      "GotCOEContent": "Cuối cùng thì ta cũng đã có tư cách lưu trú. Khách hàng phải gửi giấy chứng nhận tư cách lưu trú này về Việt Nam để cô dâu có thể tiến hành thù tục xin cấp Visa.",
+      "VisaApplication": "Xin Visa",
+      "VisaApplicationContent": "Sau khi nhận được giấy chứng nhận tư cách lưu trú, cô dâu phải nộp các giấy tờ cần thiết lên Lãnh sự quán Nhật Bản để tiến hành thủ tục xin cấp Visa. Sau khi đăng ký 1 tuần thì Visa sẽ được cấp."
+    },
+    "PickUp": {
+      "label": "Về đón vợ",
+      "GoToJapan": "Sang Nhật",
+      "PickUpContent": "Mặc dù không bắt buộc, chúng tôi khuyên khách hàng nên đi Việt Nam đón vợ. Khách hàng sẽ phải chuẩn bị vé máy bay khứ cho mình và 1 chiều từ Việt Nam cho vợ.",
+      "GoToJapanContent": "Cuối cùng ngày sang Nhật cũng đã đến. Xin chúc mừng tân lang tân nương."
+    },
+    "DocumentPreparation": {
+      "label": "Chuẩn bị giấy tờ",
+      "line1": "Về Nhật, khách hàng sẽ phải chuẩn bị các giấy tờ để gửi về Việt Nam để làm thủ tục kết hôn. Các giấy tờ bao gồm, giấy chứng nhận đủ điều kiện kết hôn, sổ hộ khẩu và hộ chiếu."
+    },
+    "JapanSide": "Phía Nhật",
+    "VietnamSide": "Phía Việt",
+    "ReadMore": "Đọc thêm"
+  },
+  "Members": "Hội Viên",
+  "Banner": "Tư vấn Hôn nhân Nhật Bản",
+  "What is Vietnamese bridal consulting": "Tư vấn hôn nhân Việt Nam - Nhật Bản là gì",
+  "Service Overview": "Chúng tôi là dịch vụ tư vấn hôn nhân cho các bạn nữ, có nhu cầu muốn kết hôn với nam giới Nhật Bản. Nhật Bản nổi tiếng là một đất nước mà ở đó quyền lợi của phụ nữ luôn được đảm bảo. Nam giới Nhật Bản được dạy từ nhỏ là phải cư xử nhã nhặn với phụ nữ",
+  "SiriusMemberSchema": {
+    "memberCode": "Mã",
+    "basicInformation": {
+      "label": "Thông tin cơ bản",
+      "Name": "Họ tên",
+      "BirthDate": "Ngày sinh",
+      "Height": "Chiều cao (cm)",
+      "Weight": "Cân nặng (kg)",
+      "Academic": {
+        "label": "Học vấn",
+        "1": "Hết lớp 1",
+        "2": "Hết lớp 2",
+        "3": "Hết lớp 3",
+        "4": "Hết lớp 4",
+        "5": "Hết lớp 5",
+        "6": "Hết lớp 6",
+        "7": "Hết lớp 7",
+        "8": "Hết lớp 8",
+        "9": "Hết lớp 9",
+        "10": "Hết lớp 10",
+        "11": "Hết lớp 11",
+        "12": "Hết lớp 12",
+        "13": "Tốt nghiệp trung cấp",
+        "14": "Tốt nghiệp cao đẳng",
+        "15": "Tốt nghiệp đại học",
+        "16": "Tốt nghiệp thạc sĩ",
+        "17": "Tốt nghiệp tiến sĩ"
+      },
+      "Ocupation": {
+        "label": "Nghề Nghiệp",
+        "0": "Giúp việc nhà",
+        "1": "Nhân viên nhà hàng",
+        "2": "Nhân viên làm đẹp",
+        "3": "Nhân viên văn phòng",
+        "4": "Kế toán",
+        "5": "Sinh viên/học sinh",
+        "6": "Kinh doanh tự do",
+        "7": "Công nhân",
+        "8": "Nông dân",
+        "9": "Đã nghỉ hưu"
+      },
+      "Email": "Email",
+      "TEL": "Số điện thoại",
+      "Marriage": {
+        "label": "Lý lịch hôn nhân",
+        "0": "Kết hôn lần đầu, không có con",
+        "1": "Kết hôn lần đầu, có con",
+        "2": "Tái hôn, không có con",
+        "3": "Tái hôn, có con"
+      },
+      "Address": "Địa chỉ",
+      "Salary": "Thu nhập 1 năm (gồm thưởng và trước thuế)"
+    },
+    "Language": {
+      "label": "Ngoại ngữ",
+      "English": {
+        "label": "Tiếng Anh",
+        "0": "Không biết",
+        "1": "Sơ cấp",
+        "2": "Trung cấp",
+        "3": "Cao cấp"
+      },
+      "Japanese": {
+        "label": "Tiếng Nhật",
+        "0": "Không biết",
+        "1": "N5",
+        "2": "N4",
+        "3": "N3",
+        "4": "N2",
+        "5": "N1"
+      }
+    },
+    "Family": {
+      "label": "Gia Đình",
+      "Siblings": "Anh em (người)",
+      "Father": {
+        "label": "Bố",
+        "age": "Tuổi bố",
+        "ocupation": "Nghề nghiệp"
+      },
+      "Mother": {
+        "label": "Mẹ",
+        "age": "Tuổi mẹ",
+        "ocupation": "Nghề nghiệp"
+      },
+      "Self": "Bản thân"
+    },
+    "Profile": {
+      "label": "Hồ sơ",
+      "publish": "Công khai",
+      "retire": "Bỏ đoàn"
+    },
+    "Photos": "Ảnh",
+    "Videos": "Video"
+  },
+  "AddMember": {
+    "Add Member": "Thêm Hội Viên Mới",
+    "Register User": "Đăng ký người dùng",
+    "Username": "Tên đăng ký",
+    "Password": "Mật khẩu",
+    "ConfirmPassword": "Nhập lại mật khẩu",
+    "Insert": "Thêm",
+    "Reset": "Soạn lại",
+    "UploadPhotos": "Upload Ảnh",
+    "ChoosePhotos": "Chọn 1 hoặc nhiều ảnh"
+  },
+  "MemberList": {
+    "code": "Mã",
+    "age": "Tuổi",
+    "registeredDate": "Ngày tham gia"
+  },
+  "UserLogin": {
+    "Register": "Đăng ký",
+    "Login": "Đăng Nhập"
+  },
+  "SiriusActivitySchema": {
+    "insert": "Tạo",
+    "update": "Thay đổi",
+    "updateMember": "Thay đổi thông tin hội viên",
+    "remove": "Xóa",
+    "cancel": "Bỏ qua",
+    "close": "Kết thúc",
+    "interview-order": "đăng ký gặp mặt",
+    "activityType": "Loại thao tác",
+    "recentActivity": "Các hoạt động gần đây",
+    "username": "Tên User",
+    "memberList": "Danh sách hội viên",
+    "memberCode": "Mã hội viên",
+    "createdTime": "Thời điểm thao tác",
+    "lastMemberCode": "Mã thành viên mới nhất",
+    "userId": "User ID",
+    "memberId": "Member ID"
+  }
+}

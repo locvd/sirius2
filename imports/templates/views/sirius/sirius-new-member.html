@@ -1,0 +1,10 @@
+<template name="siriusnewmember">
+    <h1 class="header">{{_ "AddMember.Add Member"}}</h1>
+    {{#autoForm collection="SiriusMembers" doc=this id="insertSiriusMember" type="method" meteormethod="insertNewMember" resetOnSuccess=true}}
+        {{> afQuickFields}}
+        <div>
+            <button type="submit" class="btn btn-primary">{{_ "AddMember.Insert"}}</button>
+            <button type="reset" class="btn btn-default">{{_ "AddMember.Reset"}}</button>
+        </div>
+    {{/autoForm}}
+</template>

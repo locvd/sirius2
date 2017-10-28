@@ -1,0 +1,85 @@
+<template name="siriusHome">
+    <div class="recent-activity">
+        <!-- SECTION HEADER-->
+        <div class="content-wrapper">
+            <div class="section-header">
+                <h2>{{_ "SiriusActivitySchema.recentActivity"}}</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="panel panel-flat">
+                        <div class="panel-heading">
+                            <div class="panel-title">{{_ "SiriusActivitySchema.recentActivity"}}</div>
+                        </div>
+                        <div data-height="230" data-scrollable="yes" class="list-group">
+                            <!-- START list group item-->
+                            {{#each recentActivities}}
+                                <div class="list-group-item">
+                                    <div class="media-box">
+                                        <div class="pull-left">
+                         <span class="fa-stack">
+                            <em class="fa fa-circle fa-stack-2x text-purple"></em>
+                            <em class="fa fa-cloud-upload fa-stack-1x fa-inverse text-white"></em>
+                         </span>
+                                        </div>
+                                        <div class="media-box-body clearfix">
+                                            <small class="text-green pull-right ml">{{date}}</small>
+                                            <div class="media-box-heading"><a href="#"
+                                                                              class="text-purple m0">{{type}}</a>
+                                            </div>
+                                            <p class="m0">
+                                                <small><a href="#">{{content}}</a>
+                                                </small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            {{/each}}
+                        </div>
+                        <!-- START panel footer-->
+                        <div class="panel-footer clearfix">
+                            <a href="#" class="pull-left">
+                                <small>Load more</small>
+                            </a>
+                        </div>
+                        <!-- END panel-footer-->
+                    </div>
+                    <!-- END list group-->
+                </div>
+                <!--</div>-->
+            </div>
+        </div>
+    </div>
+    <div class="about-company">
+        <!-- SECTION HEADER-->
+        <div class="content-wrapper">
+            <div class="section-header">
+                <h2>{{_ "SiriusActivitySchema.recentActivity"}}</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div data-height="230" data-scrollable="yes" class="list-group" style="border: 1px;">
+                        <!-- START list group item-->
+                        {{#each recentActivities}}
+                            <a href="#" class="list-group-item">
+                                <div class="media-box">
+                                    <div class="media-box-body clearfix">
+                                        <small class="pull-right">2h</small>
+                                        <strong class="media-box-heading text-primary">
+                                            <span class="circle circle-success circle-lg text-left"></span>{{date}}
+                                        </strong>
+                                        <p class="mb-sm">
+                                            <small>{{content}}</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        {{/each}}
+                    </div>
+                    <!-- END list group-->
+                </div>
+                <!--</div>-->
+            </div>
+        </div>
+    </div>
+</template>

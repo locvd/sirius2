@@ -1,0 +1,16 @@
+<template name="siriusLayout">
+    <div class="wrapper">
+        <!-- top navbar-->
+        {{> siriusNavbar }}
+        <!-- offsidebar-->
+        {{> offsidebar}}
+        <!-- Main section-->
+        <section style="margin-left: 0px;" id="sirius-home-page">
+            <!-- Page content-->
+            {{> yield }}
+        </section>
+        <!-- Page footer-->
+        {{> siriusFooter }}
+    </div>
+    {{> yield region="bodyChild" }}
+</template>

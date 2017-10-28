@@ -1,0 +1,33 @@
+<template name="siriusMemberList">
+    <div class="content-wrapper">
+        <div class="row">
+            {{#each members}}
+                <div class="col-lg-3 col-sm-4">
+                    <div class="panel widget">
+                        <div class="thumbnail">
+                            <a href={{memberDetailPath this}}>
+                                <img src={{profilePicture this}} alt={{memberCode}} class="img-responsive">
+                            </a>
+                        </div>
+                        <div class="panel-body">
+                            <div class="row row-table text-center">
+                                <div class="col-xs-4">
+                                    <p>{{_ "MemberList.code"}}</p>
+                                    <h3 class="m0 text-primary">V-{{memberCode}}</h3>
+                                </div>
+                                <div class="col-xs-4">
+                                    <p>{{_ "MemberList.age"}}</p>
+                                    <h3 class="m0 text-primary">{{calculateAge this}}</h3>
+                                </div>
+                                <div class="col-xs-4">
+                                    <p>{{_ "MemberList.registeredDate"}}</p>
+                                    <h3 class="m0 text-primary">{{registeredDate this}}</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {{/each}}
+        </div>
+    </div>
+</template>

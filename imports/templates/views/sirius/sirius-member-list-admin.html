@@ -1,0 +1,90 @@
+<template name="siriusMemberListAdmin">
+    {{#if memberToUpdate}}
+        <h1 class="header">{{_ "SiriusActivitySchema.updateMember"}}</h1>
+        {{#autoForm collection="SiriusMembers" doc=memberToUpdate id="updateSiriusMember" type="method" meteormethod="updateMember"
+                    autosave=true}}
+            {{> afQuickFields}}
+            <div>
+                <button type="submit" id="updateMemberBtn" class="btn btn-primary">{{_ "SiriusActivitySchema.update"}}</button>
+                <button type="reset" id="updateMemberCancelBtn" class="btn btn-default">{{_ "SiriusActivitySchema.close"}}</button>
+            </div>
+        {{/autoForm}}
+    {{/if}}
+
+    <h1 class="header">{{_ "SiriusActivitySchema.memberList"}}</h1>
+    <section class="members">
+        <!-- START panel-->
+        <div class="panel panel-default">
+            <!-- START table-responsive-->
+            <div class="table-responsive">
+                <table id="table-ext-1" class="table table-bordered table-hover">
+                    <thead>
+                    <tr>
+                        <th>{{_ "SiriusMemberSchema.memberCode"}}</th>
+                        <th>{{_ "SiriusMemberSchema.Photos"}}</th>
+                        <th>{{_ "SiriusMemberSchema.basicInformation.Name"}}</th>
+                        <th>{{_ "SiriusMemberSchema.basicInformation.Address"}}</th>
+                        <th>{{_ "SiriusMemberSchema.basicInformation.BirthDate"}}</th>
+                        <th>{{_ "SiriusMemberSchema.basicInformation.TEL"}}</th>
+                        <th>{{_ "SiriusActivitySchema.update"}}</th>
+                        <th>{{_ "SiriusActivitySchema.remove"}}</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {{#each members}}
+                        <tr>
+                            <td>V-{{memberCode}}</td>
+                            <td>
+                                <div class="media">
+                                    <img src={{profilePicture this}} alt="Image" class="img-responsive"/>
+                                </div>
+                            </td>
+                            <td>{{basicInformation.name}}</td>
+                            <td>{{basicInformation.address}}</td>
+                            <td>{{birthDate this}}</td>
+                            <td>{{basicInformation.phone}}</td>
+                            <td>
+                                <button type="button" class="btn btn-sm btn-primary" id={{this._id}}>{{_
+                                        "SiriusActivitySchema.update"}}</button>
+                            </td>
+                            <td>
+                                <button type="button" class="btn btn-danger btn-default" id={{this._id}}>{{_
+                                        "SiriusActivitySchema.remove"}}</button>
+                            </td>
+
+                        </tr>
+                    {{/each}}
+                    </tbody>
+                </table>
+            </div>
+            <!-- END table-responsive-->
+            <div class="panel-footer">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <div class="input-group">
+                            <input type="text" placeholder="Search" class="input-sm form-control"/>
+                            <span class="input-group-btn">
+                      <button type="button" class="btn btn-sm btn-default">Search</button>
+                   </span>
+                        </div>
+                    </div>
+                    <div class="col-lg-8"></div>
+                    <div class="col-lg-2">
+                        <div class="input-group pull-right">
+                            <select class="input-sm form-control">
+                                <option value="0">Bulk action</option>
+                                <option value="1">Delete</option>
+                                <option value="2">Clone</option>
+                                <option value="3">Export</option>
+                            </select>
+                            <span class="input-group-btn">
+                      <button class="btn btn-sm btn-default">Apply</button>
+                   </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END panel-->
+    </section>
+</template>
